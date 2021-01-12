@@ -13,7 +13,7 @@ Pyats (20.12 tested)
 
 # Note
 Use these at your own risk. I am not responsible for config losses or damage that may occur with the use of these scripts.
-Run the root_guard_discovery.py to find ports which are eligible for root guard configuration. root_guard_discovery.py discovers all ports in Designated Role in every VLAN & creates configuration file. Script should create three (3) files (xx_interface_configs.txt, all_interfaces.csv, and interfaces.csv)
+Run the root_guard_discovery.py to find ports which are eligible for root guard configuration. root_guard_discovery.py discovers all ports in Designated Role in every VLAN & renders the configuration file using the jinja template. Script should create three (3) files (xx_interface_configs.txt, all_interfaces.csv, and interfaces.csv)
 
 root_guard_conf.py performs pre- deployment check, deploys the configuration file, performs post-deployment check
 Tip: Genie package in this script needs the hostname. The hostname is provided in the success message of the first script. 
