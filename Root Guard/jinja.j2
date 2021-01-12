@@ -1,0 +1,5 @@
+interface {{ interface }}
+ {% if role == "designated" or role =="0_designated" -%}
+  spanning-tree guard root
+  {%endif%}
+  !
