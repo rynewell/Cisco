@@ -9,7 +9,7 @@ netmiko  (3.3.2 tested)
 Genie (20.12.2 tested)
 Jinja2  (2.11.2 tested)
 pandas (1.1.5 tested)
-Pyats (20.12 teste)
+Pyats (20.12 tested)
 
 # Note
 Use these at your own risk. I am not responsible for config losses or damage that may occur with the use of these scripts.
